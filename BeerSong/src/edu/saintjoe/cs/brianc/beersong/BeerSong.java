@@ -10,6 +10,7 @@ public class BeerSong {
 			if (beernum == 1) {
 				word = "bottle";
 				}
+			System.out.println("Hi mom");
 		}
 
 	}
