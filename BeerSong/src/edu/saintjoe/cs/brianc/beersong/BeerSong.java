@@ -10,9 +10,10 @@ public class BeerSong {
 			if (beernum == 1) {
 				word = "bottle";
 				}
-			System.out.println("Hi mom");
-		}
+			System.out.println("Hi mom " + beernum);
+			beernum = beernum - 1;
+		}// end while
 
-	}
+	}//end main
 
-}
+}//end class
